@@ -1,4 +1,31 @@
-## SSH Documentation
+# HTTPS & SSH Documentation
+
+## Repository setup with HTTPS
+
+**Step 1:** Once you are logged in to your Github account navigate to your profile and create a new repository 
+
+**Step 2:** Enter a repository name of your choice, then set it to public and click create repository at the bottom of the page
+
+**Step 3:** At the top of the page you will see a blue box tittle Quick setup, then select HTTPS
+
+**Step 4:** On the same page you will see the following commands you will need to follow 
+
+`git init`
+
+`git add .`
+
+`git commit -m "first commit"`
+
+`git branch -M main`
+
+`git remote add origin "your https link here"`
+
+`git push -u origin main`
+
+**Step 5:** once you have run the commands on the terminal, refresh your GitHub page and you will be directed to your new repository. 
+
+
+## Repository setup with SSH
 
 **Step 1:** Create a new Github repository.
 
